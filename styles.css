@@ -319,7 +319,7 @@ form input{
 
 form{
     display: flex;
-    
+    position: relative;
 }
 
 .clmn1{
@@ -350,9 +350,65 @@ textarea{
     height: 102px;
    margin-left: 30px;
 }
+.btn2{
+    position: absolute;
+    width: 190px;
+    height: 50px;
+    border:none;
+    background: #D1A954;
+    color: white;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    cursor: pointer;
+    left: 709px;
+    top: 140px;
+}
+.promise{
+    position: absolute;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #989898;
+    left: 125px;
+    top:140px;
+}
 
+.vst{
+    margin-left: 405px;
+}
 
 /* футер */
+footer{
+    width: 1110px;
+    height: 90px;
+    margin: auto;
+    display: flex;
+}
+
 hr{
-    margin-top: 1500px;
+    margin-top: 80px;
+    width: 1110px;
+    height: 0px;
+    border: 1px solid #565656;
+    margin-bottom: 30px;
+}
+
+footer p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #989898;
+}
+
+footer p:nth-child(2){
+    margin-left: 714px;
 }
